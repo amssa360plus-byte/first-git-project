@@ -7,5 +7,5 @@ if(num1 === num2){
     console.log("la somme: "+somme+" et le triple: "+triple)
 }
 else{
-    console.log("la somme is "+somme)
+    console.log("la somme is"+somme)
 }
