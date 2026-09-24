@@ -34,20 +34,21 @@ for(let i = 0 ; i < books.length ; i++){
                let genre = prompt("entre genre : ");
                let page = prompt ("entre page: ");
                let newbook = {
-            id : id ,    
-            title : title,
-            author : author,
-            date : date,
-            genre : genre,
-            page : page,
-            disponible : true
-        }
-        books.push(newbook)
+                    id : id ,    
+                    title : title,
+                    author : author,
+                    date : date,
+                    genre : genre,
+                    page : page,
+                    disponible : true
+                }
+                books.push(newbook)
 
-    }
+            }
+            // console.log(Newbook)
 
     
-}console.log(Newbook)
+        }
  if(selecte === 7){
     console.log("bye bye")
     break;
